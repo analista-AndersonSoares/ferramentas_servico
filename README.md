@@ -17,7 +17,7 @@ Aqui você encontrará as ferramentas divididas por categorias de uso. *(Clique 
 ### 📄 Manipulação e Conversão de Arquivos
 Ferramentas desenvolvidas para adequar documentos, anexos e evidências aos padrões exigidos pelas plataformas.
 * **[Conversor de Imagens para PDF](conversor.py):** Aplicativo desktop com interface gráfica para agrupar múltiplas capturas de tela em um único arquivo PDF validável de forma 100% offline.
-* * **[Compactador de PDF](compactador.py):** Aplicativo desktop com interface gráfica para agrupar múltiplos Pdf's em um único arquivo P validável de forma 100% offline.
+*  **[Compactador de PDF](compactador.py):** Aplicativo desktop com interface gráfica para agrupar múltiplos Pdf's em um único arquivo P validável de forma 100% offline.
 
 ### ⚙️ Automação de Rotinas *(Em breve)*
 Scripts para acelerar verificações de sistema, organizar diretórios ou automatizar respostas padrão.
