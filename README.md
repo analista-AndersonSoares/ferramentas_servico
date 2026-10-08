@@ -23,8 +23,7 @@ Ferramentas desenvolvidas para adequar documentos, anexos e evidências aos padr
 Scripts para acelerar verificações de sistema, organizar diretórios ou automatizar respostas padrão.
 
 ### 📊 Tratamento e Qualidade *(Em breve)*
-Utilitários focados em consistência, redução de erros operacionais e apoio à análise técnica de chamados.
-
+*  **[Verificador de erros no envio para Audesp](app.py):** Aplicativo feito para facilitar a verificação dos erros no arquivo json. enviado para Audesp
 ## 🚀 Tecnologias e Bibliotecas
 
 As principais tecnologias aplicadas nas soluções deste repositório incluem:
