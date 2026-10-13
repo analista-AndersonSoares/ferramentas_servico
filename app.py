@@ -67,7 +67,6 @@ if arquivo is not None:
                 descricao = doc.get("descricao", "Sem descrição")
                 
                 erros_encontrados.append({
-                    "Índice JSON": i,
                     "Motivo do Erro": " + ".join(motivos),
                     "Nº Doc": num_doc,
                     "Mês": nome_mes,
