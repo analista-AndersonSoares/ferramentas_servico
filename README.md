@@ -19,11 +19,9 @@ Ferramentas desenvolvidas para adequar documentos, anexos e evidências aos padr
 * **[Conversor de Imagens para PDF](conversor.py):** Aplicativo desktop com interface gráfica para agrupar múltiplas capturas de tela em um único arquivo PDF validável de forma 100% offline.
 *  **[Compactador de PDF](compactador.py):** Aplicativo desktop com interface gráfica para agrupar múltiplos Pdf's em um único arquivo P validável de forma 100% offline.
 
-### ⚙️ Automação de Rotinas *(Em breve)*
-Scripts para acelerar verificações de sistema, organizar diretórios ou automatizar respostas padrão.
-
-### 📊 Tratamento e Qualidade *(Em breve)*
-*  **[Verificador de erros no envio para Audesp](app.py):** Aplicativo feito para facilitar a verificação dos erros no arquivo json. enviado para Audesp
+### ⚙️ Automação de Rotinas 
+**[Verificador de erros no envio para Audesp](app.py):** Aplicativo feito para facilitar a verificação dos erros no arquivo json. enviado para Audesp
+ 
 ## 🚀 Tecnologias e Bibliotecas
 
 As principais tecnologias aplicadas nas soluções deste repositório incluem:
@@ -31,6 +29,7 @@ As principais tecnologias aplicadas nas soluções deste repositório incluem:
 * **Tkinter** (Para criação de interfaces gráficas/GUI acessíveis)
 * **Pillow** (Para processamento e manipulação de matrizes de imagens)
 * **PyInstaller** (Para compilação das ferramentas em executáveis `.exe` independentes)
+* **Streamlit**(Para criação de App's)
 
 ---
 *Repositório mantido com o foco em transformar problemas operacionais diários em soluções automatizadas.* 💡
