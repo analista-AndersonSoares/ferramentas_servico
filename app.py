@@ -74,7 +74,6 @@ if arquivo is not None:
                     "Descrição": descricao,
                     "Valor Bruto": valor_bruto,
                     "Valor Encargos": valor_encargos,
-                    "Tipo Rateio": tipo_rateio,
                     "% Rateio": percentual
                 })
 
