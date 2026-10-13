@@ -13,7 +13,7 @@ def selecionar_arquivos():
     )
     
     if arquivos:
-        # Ordena a lista alfabeticamente para garantir a sequência correta das páginas
+       
         arquivos_selecionados = sorted(list(arquivos))
         label_status.config(text=f"{len(arquivos_selecionados)} arquivo(s) selecionado(s)", fg="blue")
 
@@ -22,7 +22,7 @@ def juntar():
         messagebox.showwarning("Aviso", "Por favor, selecione os PDFs primeiro!")
         return
         
-    # Pergunta onde o usuário quer salvar o arquivo mesclado
+    
     local_salvar = filedialog.asksaveasfilename(
         defaultextension=".pdf",
         filetypes=[("Arquivo PDF", "*.pdf")],
@@ -35,7 +35,7 @@ def juntar():
     try:
         merger = PdfWriter()
         
-        # O seu loop original, mas agora lendo da lista que o usuário escolheu
+       
         for pdf in arquivos_selecionados:
             merger.append(pdf)
             
@@ -46,14 +46,14 @@ def juntar():
         
         messagebox.showinfo("Sucesso!", "Os PDFs foram juntados com sucesso!")
         
-        # Limpa o app para a próxima tarefa
+        
         arquivos_selecionados.clear()
         label_status.config(text="Nenhum arquivo selecionado", fg="gray")
         
     except Exception as e:
         messagebox.showerror("Erro", f"Ocorreu um erro ao processar os arquivos:\n{e}")
 
-# --- Configuração da Interface Visual ---
+
 janela = tk.Tk()
 janela.title("Juntar PDF's")
 janela.geometry("400x250")
